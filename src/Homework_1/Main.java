@@ -1,7 +1,7 @@
 package Homework_1;
 
-class Main {
-    public static void main(String[] args) {
+public class Main {
+     static void main() {
         System.out.printf(
                 "Переменная типа %-6s занимает %2d Байт памяти (%2d бит памяти), и принимает значения в диапазоне от %d до %d%n",
                 byte.class.getName(), Byte.BYTES, Byte.SIZE, Byte.MIN_VALUE, Byte.MAX_VALUE
